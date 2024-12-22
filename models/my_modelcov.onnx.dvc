@@ -1,0 +1,5 @@
+outs:
+- md5: 996300ca5a8c583e3b4b5d2b6ecc9f44
+  size: 5332693
+  hash: md5
+  path: my_modelcov.onnx
