@@ -1,0 +1,15 @@
+models:
+  superhero_predictor:
+    model_path: "models/my_modelcov.onnx"  # Ruta del modelo
+    input_size: [1, 3, 224, 224]  # Batch size, Channels, Height, Width
+    classes:
+      - "batman"
+      - "ironman"
+      - "linternaverde"
+      - "spiderman"
+      - "wolwerine"
+
+server:
+  host: "0.0.0.0"
+  port: 5000
+  debug: true
